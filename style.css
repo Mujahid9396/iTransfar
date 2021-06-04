@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+  background-color: #e9f5ff;
+}
+a {
+  text-decoration: none;
+}
+#home {
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0px 25px 0px 25px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  font-size: 25px;
+  color: #fff;
+}
+
+a.nav-link:hover {
+  color: #ff2c9c !important;
+}
+
+/* color: #ff2c9c; */
+
+.elementor-heading-title {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+
+.elementor-container {
+  text-align: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.home {
+  text-align: center;
+  margin: auto;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.speed {
+  margin: 0px 0px 23px 0px;
+}
+.speed-content {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+
+.main-title {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.download-btn {
+  margin: 10px 0px 0px 0px;
+}
+
+.download-btn-link {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #ff2c9c;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff2c9c;
+  border-radius: 32px 32px 32px 32px;
+  padding: 13px 30px 13px 30px;
+  transition: 0.3s;
+}
+
+.download-btn-link:hover {
+  color: #ff2c9c;
+  background-color: #163c79;
+}
+.banner-image {
+  margin: 60px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.plan {
+  padding-top: 7%;
+}
+.plan-content {
+  text-align: center;
+}
+.sub-heading {
+  color: #ff2c9c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.plan-sub-content {
+  color: #163c79;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.plan-sub-content em {
+  font-family: Playfair Display, serif;
+}
+
+.plan-sub-content .plan-text-two {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  width: 65%;
+  margin: auto;
+}
+
+/* Card */
+.card {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ff2c9c;
+  box-shadow: 0px 0px 10px 0px rgb(255 207 233 / 70%);
+  border-radius: 10px;
+}
+.card-body {
+  padding: 3rem 1rem;
+}
+.card .card-body h2 {
+  color: #ff2c9c;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.card .card-body .mony {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  margin: -5px 0px 33px 0px;
+  padding: 8px 10px 25px 10px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #bddffc;
+
+  box-shadow: 0px 0px 30px 0px rgb(217 234 249 / 90%);
+}
+
+.card .card-body .mony .mony-qnt {
+  display: block;
+  position: relative;
+}
+
+.plan-details {
+  /* margin: 0px 0px 15px 0px;
+  padding: 0px 0px 1px 0px; */
+  color: #163c79;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 55%;
+}
+
+.start-btn {
+  font-family: "Open Sans" Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 20px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #ff5366;
+  border-radius: 32px 32px 32px 32px;
+  padding: 15px 40px 15px 40px;
+  transition: 0.5s;
+}
+
+.start-btn:hover {
+  background-color: #ff2c9c;
+  color: #fff;
+}
+
+.taka {
+  color: #163c79;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.services .services-title {
+  color: #163c79;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.services-text {
+  margin: 0px 0px 62px 0px;
+  padding: 0% 22% 0% 22%;
+  text-align: center;
+}
+
+.service-icon .icon .card {
+  background: none;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(0, 0, 0, 0);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  box-shadow: none;
+  margin: 0 -3% 0 -3%;
+}
+
+.service-icon .icon .card:hover {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #bddffc;
+  box-shadow: 7px 7px 20px 0px #c4e4ff;
+}
+
+.service-icon .icon h2 {
+  color: #163c79;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px 0px 2px 0px;
+  text-align: center;
+}
+
+.service-icon .icon p {
+  color: #7a88a8;
+  font-size: 16px;
+  text-align: center;
+}
+
+img.card-img-top {
+  width: 65px;
+  height: 70px;
+  text-align: center;
+  margin: auto;
+  margin-top: 12%;
+}
+
+#support {
+  background-color: #fff;
+}
+#support .container .sub-heading {
+  text-align: left;
+}
+.support-content {
+  color: #163c79;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.human-support {
+  color: #7a88a8;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px 0px 23px 0px;
+}
+
+.chat {
+  background-color: #ff2c9c;
+}
+
+/* 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mujahid9396/iTransfar.git
+git push -u origin main
+ */
