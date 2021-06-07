@@ -101,13 +101,26 @@
     top: 28%;
   }
   .plan-details {
-    margin-top: 40%;
+    margin-top: 45%;
   }
   .all-support.pb-3.btn-group {
     padding-left: 70px;
   }
   .test-btn {
     width: 60%;
+  }
+}
+
+@media (max-width: 380px) {
+  .card .card-body .mony {
+    left: 35%;
+    top: 26%;
+  }
+  .chat {
+    padding: 15px 12px 15px 12px !important;
+  }
+  .all-support.pb-3.btn-group {
+    padding-left: 40px;
   }
 }
 
