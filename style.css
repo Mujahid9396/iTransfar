@@ -298,14 +298,99 @@ img.card-img-top {
 }
 
 .chat {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 20px;
+  background-color: #ff5366;
+  border-radius: 32px;
+  padding: 15px 50px 15px 50px;
+  transition: 0.4s;
+}
+
+.chat:hover {
+  background-color: #ff2c9c;
+  color: #fff;
+}
+
+.contact {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 20px;
+  fill: #ed3095;
+  color: #ed3095;
+  background-color: rgba(22, 60, 121, 0);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ed3095;
+  border-radius: 32px 32px 32px 32px;
+  padding: 13px 40px 13px 40px;
+  transition: 0.4s;
+}
+
+.contact:hover {
+  color: #ffffff;
   background-color: #ff2c9c;
 }
 
-/* 
+#test {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #193c78 33%, #193c78 96%);
+}
+#test h1 {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 35px;
+}
+
+#test p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.test-btn {
+  width: 35%;
+  margin: auto;
+  font-weight: 600;
+  fill: #eaeaea;
+  color: #eaeaea;
+  background-color: #ff5366;
+  border-radius: 47px 47px 47px 47px;
+  line-height: 35px;
+  transition: 1s;
+}
+.test-btn:hover {
+  color: #fff;
+}
+
+.copyRight {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #c1e3ff;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  /* padding: 20px 0px 0px 0px; */
+}
+
+.copyRight p {
+  color: #7a88a8;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Mujahid9396/iTransfar.git
 git push -u origin main
+
+https://mujahid9396.github.io/iTransfar/
  */

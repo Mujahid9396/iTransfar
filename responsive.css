@@ -1,6 +1,129 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main-title {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .speed-content {
+    font-size: 14px;
+  }
+
+  .download-btn-link {
+    font-size: 12px;
+    padding: 7px 20px 7px 20px;
+  }
+
+  .sub-heading h2 {
+    font-size: 16px;
+  }
+
+  .plan-sub-content {
+    font-size: 16px;
+    line-height: 10px;
+    padding-top: 15px;
+  }
+
+  .plan-sub-content .plan-text-two {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .services .services-title {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .services-text {
+    padding: 0% 2% 0% 2%;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+    text-align: center !important;
+  }
+
+  .test-btn {
+    width: 80%;
+  }
+  .support-content {
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .human-support {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .chat {
+    padding: 15px 18px 15px 20px !important;
+  }
+
+  #test h1 {
+    font-size: 27px;
+  }
+  #test p {
+    font-size: 12px;
+
+    line-height: 25px;
+  }
+  .test-btn {
+    width: 75%;
+  }
+  .test-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .card-body .mony {
+    left: 23%;
+    top: 28%;
+  }
+
+  .plan-details {
+    margin-top: 76%;
+    margin-left: -20px;
+  }
+
+  .chat {
+    padding: 15px 35px 15px 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card .card-body .mony {
+    left: 37%;
+    top: 28%;
+  }
+  .plan-details {
+    margin-top: 40%;
+  }
+  .all-support.pb-3.btn-group {
+    padding-left: 70px;
+  }
+  .test-btn {
+    width: 60%;
+  }
+}
+
+@media (max-width: 320px) {
+  .plan-details {
+    margin-top: 65%;
+  }
+
+  .card .card-body .mony {
+    left: 30%;
+    top: 26%;
+  }
+  .test-btn {
+    width: 80%;
+  }
+  .all-support.pb-3.btn-group {
+    padding-left: 0px;
   }
 }
