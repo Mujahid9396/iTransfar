@@ -1,3 +1,10 @@
+
+@media (max-width: 991px) {
+    li.nav-item {
+    padding: 7px 0px;
+}
+}
+
 @media (max-width: 767px) {
   .main-title {
     font-size: 18px;
